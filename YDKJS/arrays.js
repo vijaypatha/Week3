@@ -65,40 +65,73 @@
 //console.log(myColor.join("%"));
 //console.log(myColor.join("*"));
 
-//Problem 5  Write a JavaScript program which accept a number as input and //function
+//Problem 5  Write a JavaScript program which accept a two digit or more number as input and //function and inster # between numbers
 
-//insert dashes (-) between each two even numbers. - If statements
+/* THEORY **********************************
+/**********************************
+array [] - indexed from zero
 
-//For example if you accept 025468 the output should be 0-254-6-8.
-//var num=window.prompt();
-//var str = num.toString();
-//var result = [str[0]];
+Object -
+var plan1 = {
+   name: "Basic", (key-value pair aka property and value )
+   price: 3.99,
+   space: 100,
+   transfer: 1000,
+   pages: 10
+};
+
+write one object
+var myFavBook = {
+ name: "mindfulness",
+ autour: "random",
+ price: 234
+}; //Object
+
+alert("The cost of the " + myFavBook.name + " cost is $" + myFavBook.price + " per month.");
+
+accessing the values of properties in a object is easy. Its is just as simple as ObjectName.propertey will give the value
+
+var myFavBook = []; //array
+
+
+
+
+
+
+*/
+
+//var myArrayBooks = [
+// {
+//    name: "mindfulness",
+//    autour: "random",
+//    price: 234
+//},
+// {
+//        name: "mindfulness",
+//        autour: "random",
+//        price: 234
+//    },
+//    {
+//    name: "mindfulness",
+//    autour: "random",
+//    price: 234
+//    },
 //
-//for(var x=1; x<str.length; x++)
-//{
-//    if((str[x-1]%2 === 0)&&(str[x]%2 === 0))
-//    {
-//        result.push('-', str[x]);
-//    }
-//    else
-//    {
-//        result.push(str[x]);
-//    }
-//}
-//console.log(result.join(''));
+//
+//];
+//
+////imagin a hundred of these. how will you access these?
+////wrap it into an array?
+//console.log (myArray[0]);
 
-function question5() {
-    var input = prompt("enter a number");
-    var str = input.toString();
-    var resultArray = [str[0]];
+var myArry = [22, "rama", "random"]
+myArry.push("cats");
+console.log(myArry);
 
-    for (var i = 0; i < str.length; i++) {
-        resultArray.push("#",str[i])
-    }
-    console.log (resultArray);
+var newArry = [];
+newArry = myArry;
+console.log(newArry);
 
-}
-question5();
 
 
 
