@@ -107,7 +107,7 @@ var myFavBook = []; //array
 //    price: 234
 //},
 // {
-//        name: "mindfulness",
+//      name: "mindfulness",
 //        autour: "random",
 //        price: 234
 //    },
@@ -116,22 +116,24 @@ var myFavBook = []; //array
 //    autour: "random",
 //    price: 234
 //    },
-//
-//
 //];
 //
 ////imagin a hundred of these. how will you access these?
 ////wrap it into an array?
 //console.log (myArray[0]);
 
-var myArry = [22, "rama", "random"]
-myArry.push("cats");
-console.log(myArry);
+//var myArry = [22, "rama", "random"]
+//myArry.push("cats");
+//console.log(myArry);
+//
+//var newArry = [];
+//newArry = myArry;
+//console.log(newArry);
 
-var newArry = [];
-newArry = myArry;
-console.log(newArry);
-
+//var myArry = [22, "rama", "random"];
+//var newArry = [];
+//newArry.push(myArry("rats"));// myArry is not the function.
+//console.log (newArry);
 
 
 
